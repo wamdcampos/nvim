@@ -15,7 +15,6 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use "nvim-lua/plenary.nvim"
 
-    use "neovim/nvim-lspconfig" -- enable LSP
     use "kylechui/nvim-surround"
 
     use "windwp/nvim-autopairs"
