@@ -33,7 +33,7 @@ local cmp = require'cmp'
         -- :help vim.lsp.*
         local opts = { noremap = true, silent = true }
 
-        vim.keymap.set('n', 'gd', '<cmd>Telescope lsp.definitions<CR>', opts)
+        vim.keymap.set('n', 'gd', '<cmd>Telescope lsp_definitions<CR>', opts)
         vim.keymap.set('n', 'K', function() vim.lsp.buf.hover() end, opts)
         vim.keymap.set('n', '<leader>vws', function() vim.lsp.buf.workspace_symbol() end, opts)
         vim.keymap.set('n', '<leader>dj', function() vim.diagnostic.goto_next() end, opts)
