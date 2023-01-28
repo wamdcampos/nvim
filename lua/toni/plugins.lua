@@ -17,6 +17,8 @@ return require('packer').startup(function(use)
 
     use 'kylechui/nvim-surround'
     use 'windwp/nvim-autopairs'
+    -- Vim training
+    use 'ThePrimeagen/vim-be-good'
 
     -- Treesitter
     use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
